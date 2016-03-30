@@ -1,0 +1,46 @@
+
+/*
+*Cytonn Tech.
+*@author Kenneth Mwangi <kthumi@cytonn.com>
+*
+*
+*/
+.img{
+	width:150px;
+	height:125px;
+	padding: 3px;
+	background-color: magenta;
+	border-radius: 3px;
+	margin: 5px;
+	float: left;
+}
+li{
+	list-style-type: none;
+	display: block;
+	background-color: #666;
+}
+.list{
+	background-color: red;
+	border-radius: 3px;
+
+
+}
+.container{
+	width: 600px;
+	float: left;
+}
+.cont{
+	width: 900px;
+	margin: 30px auto;
+	padding: 5px;
+	background-color: #eee;
+	border-radius: 3px;
+}
+.cf:before,
+.cf:after{
+	content: '';
+	display:table;
+}
+.cf:after{
+	clear: both;
+}

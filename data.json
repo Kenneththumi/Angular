@@ -1,0 +1,25 @@
+[{
+     "Name": "ronaldo",
+    "Position": 7,
+    "Strength": "Vision, Shoot power",
+      "Desc": "Cristiano Ronaldo dos Santos Aveiro, GOIH, known as Cristiano Ronaldo, is a Portuguese professional footballer who plays for Spanish club Real Madrid and the Portugal national team. He is a forward and serves as captain for Portugal. "                     
+  },
+  {
+      "Name": "benzema",
+      "Position": 9,
+       "Strength":"Vision",
+      "Desc": "Karim Mostafa Benzema (born 19 December 1987) is a French professional footballer who plays for Spanish club Real Madrid and the France national team as a striker.[3] He has been described as an immensely talented striker who is strong and powerful and a potent finisher from inside the box"                      
+   }
+   ,{
+     "Name": "modric",
+    "Position": 6,
+      "Strength":"Robustness",
+      "Desc": "Luka Modrić ( born 9 September 1985) is a Croatian footballer who plays for Spanish club Real Madrid and the Croatia national team. Modrić plays mainly as a central midfielder but can also play as an attacking and defensive midfielder."                     
+  },
+  {
+      "Name": "bale",
+      "Position": 11,
+      "Strength": "Pace, Shoot power",
+      "Desc": "Gareth Frank Bale (born 16 July 1989) is a Welsh professional footballer who plays as a winger for Spanish club Real Madrid and the Wales national team. Renowned for his ball striking from distance, swerving free kicks,[3] and his ability to get past defenders with pace, Bale has received plaudits from his peers, who have described him as a footballer with tremendous speed, great crossing ability, a great left foot and exceptional physical qualities"                      
+   }
+  ]

@@ -1,0 +1,38 @@
+<!-- /*
+*Cytonn Tech.
+*@author Kenneth Mwangi <kthumi@cytonn.com>
+*
+*
+*/ -->
+<!doctype html >
+<html lang="en"  ng-app="app" >
+<head>
+	<Meta charset="UTF-8">
+		<title>Angular Demo</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+     <script src="angular/angular.min.js"></script>
+       <script src="controllers.js"></script>
+</head>
+<body >
+<div ng-controller="MyController" class="cont">
+    
+     Search : <input type="text" ng-model="query" autofocus><br/>
+     OrderBy :<select ng-model="playerOrder">
+           <option value="Name">Name</option>
+           <option value="Position">Position</option>
+     </select>
+  <ul >  
+    <li ng-repeat="x in players | filter: query | orderBy:playerOrder" class="cf">
+      <img class="img" ng-src="images/{{x.Name}}.jpg">
+      <div class="container ">
+      <strong>Name :{{x.Name}}</strong><br/>
+      <strong>Position :{{x.Position}}</strong><br/>
+      <strong>Strength :{{x.Strength}}</strong>
+      <p>{{x.Desc}}</p>
+      <hr/>
+    </div>
+    </li> 
+  </ul> 
+</div>
+</body>
+</html>
